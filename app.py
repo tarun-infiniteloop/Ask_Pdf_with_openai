@@ -31,7 +31,7 @@ if pdf_file:
     text_splitter = CharacterTextSplitter(        
         separator = "\n",
         chunk_size = 1000,
-        chunk_overlap  = 150,
+        chunk_overlap  = 160,
         length_function = len,
     )
     texts = text_splitter.split_text(raw_text)
